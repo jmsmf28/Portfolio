@@ -1,0 +1,1 @@
+Color for navbar #f7f7f7
