@@ -4,17 +4,16 @@ import Photo from '../../assets/pictures/pic_small.jpg'
 
 
 const MyPhoto = styled.img`
-    width: 4em;
-    height: 4em;
+    width: 8em;
+    height: 8em;
     border-radius: 50%;
-    background-image: url(${Photo}); 
+    object-fit: contain;
 `;
-
 
 export function MyImage() {
     return (
         <div>
-            <MyPhoto />
+            <MyPhoto src={Photo} />
         </div>
     )
 }
